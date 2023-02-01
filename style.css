@@ -1,0 +1,130 @@
+body {
+position: relative;
+font-family: sans-serif;
+display: flex;
+height: 100vh;
+top: 5rem;
+justify-content: center;
+background: linear-gradient(297.44deg, #2C7AF9 49.47%, #BEE2FE 127.91%, #CDEDFF 130.76%);
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 15px;
+}
+
+#searchContainer {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+#citySearch {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #ffffff00;
+}
+
+::placeholder { 
+    color: white;
+    font-size: 1rem;
+}
+textarea:focus, input:focus{
+    outline: none;
+    color: white;
+    font-size: 1rem;
+}
+input{
+    color: white;
+    font-size: 1rem;
+}
+
+#searchBtn {
+    display: inline-f;
+    width: 150px;
+    height: 50px;
+    margin-top: 2rem;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #585858;
+}
+
+#result {
+    text-align: center;
+}
+
+#result h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    margin: 1.25em 0;
+  }
+
+  .weather,
+  .desc {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+ 
+  #result h1 {
+    font-size: 4em;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    color: white;
+  } 
+  
+  .temp-container {
+    display: flex;
+    justify-content: center;
+  }
+  .temp-container div {
+    padding: 0.2em 2em;
+  }
+  .temp-container div:first-child{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .temp-container .title {
+    font-weight: 600;
+    color: white;
+  }
+  .temp-container .temp {
+    font-weight: 200;
+    color: white;
+  }
+  .msg {
+    margin-top: 1em;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+ 
