@@ -1,2 +1,4 @@
 # weather-app
-Simple weather app using HTML, CSS &amp; JS. Calling an open weather api
+Simple weather app using HTML, CSS &amp; JS. Calling an open weather api.
+
+Note: Api Key required
