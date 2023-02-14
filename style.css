@@ -8,6 +8,15 @@ justify-content: center;
 background: linear-gradient(297.44deg, #2C7AF9 49.47%, #BEE2FE 127.91%, #CDEDFF 130.76%);
 }
 
+.banner{
+    padding: 20px;
+    text-align: center;
+    background: #03045e;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
